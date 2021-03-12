@@ -5,7 +5,7 @@ input[type=checkbox]{
 }
 
 label{
-    cursor: pointer;
+    cursor: pointer; /* change the cursor to hand pointer*/
     text-indent: -9999px;
     width: 200px;
     height: 100px;
@@ -28,7 +28,7 @@ label:after{
 }
 
 input:checked + label {
-    background: #bada;
+    background: rgba(68, 27, 150, 0.667);
 }
 
 input:checked + label:after{
